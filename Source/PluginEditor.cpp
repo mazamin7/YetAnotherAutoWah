@@ -712,8 +712,6 @@ void YetAnotherAutoWahAudioProcessorEditor::paint(juce::Graphics &g)
     g.setColour(Colours::black);
     g.drawFittedText("Enable", 365, 365, 100, 18, juce::Justification::centred, 1);
     g.drawFittedText("spectogram", 365, 380, 100, 18, juce::Justification::centred, 1);
-    
-    comboBox.setSelectedId(1);
 }
 
 void YetAnotherAutoWahAudioProcessorEditor::resized()
@@ -757,6 +755,8 @@ void YetAnotherAutoWahAudioProcessorEditor::resized()
     auto sweepTypeArea2 = sweepTypeArea.removeFromBottom(sweepTypeArea.getHeight() * 0.65);
     auto sweepTypeArea3 = sweepTypeArea2.removeFromLeft(sweepTypeArea2.getWidth() * 0.80);
     comboBox.setBounds(sweepTypeArea3);
+
+    comboBox.setSelectedId(1);
 }
 
 std::vector<juce::Component*> YetAnotherAutoWahAudioProcessorEditor::getComps()
