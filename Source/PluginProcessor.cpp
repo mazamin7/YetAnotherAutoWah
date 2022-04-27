@@ -155,11 +155,14 @@ float YetAnotherAutoWahAudioProcessor::sweepFunction(float phase)
         return phase / PI - 1;
 
     // RECTANGLE
-    if (sweepType == 4)
-        if (phase < PI)
+    if (sweepType == 4) {
+        if (phase < PI) {
             return 1;
-        else
+        }
+        else {
             return -1;
+        }
+    }
     
     return 0;
 }
