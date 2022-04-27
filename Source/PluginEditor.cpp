@@ -653,7 +653,7 @@ comboBoxAttachment(audioProcessor.apvts, "Sweep Type", comboBox)
 
     peakMinFreqSlider.onValueChange = [this]()
     {
-        peakMaxFreqSlider.setRange(peakMinFreqSlider.getValue(), 20000.f);
+        peakMaxFreqSlider.setRange(peakMinFreqSlider.getValue() - std::numeric_limits<float>::epsilon(), 20000.f);
     };
     
 	// Make sure that before the constructor has finished, you've set the
@@ -708,6 +708,12 @@ void YetAnotherAutoWahAudioProcessorEditor::paint(juce::Graphics &g)
     g.setColour(Colours::darkred);
     g.drawRoundedRectangle(sweepArea, 5.0f, 3.0f);
     g.drawRoundedRectangle(peakArea, 5.0f, 3.0f);
+            
+    g.setColour(Colours::black);
+    g.drawFittedText("Enable", 365, 365, 100, 18, juce::Justification::centred, 1);
+    g.drawFittedText("spectogram", 365, 380, 100, 18, juce::Justification::centred, 1);
+    
+    comboBox.setSelectedId(1);
 }
 
 void YetAnotherAutoWahAudioProcessorEditor::resized()
@@ -717,6 +723,7 @@ void YetAnotherAutoWahAudioProcessorEditor::resized()
 
     auto bounds = getLocalBounds().reduced(5);
     bounds.removeFromTop(8);
+    bounds.removeFromLeft(8);
     //   float hRatio = 25.f / 100.f; //JUCE_LIVE_CONSTANT(25) / 100.f;
     //   auto responseArea = bounds.removeFromTop(bounds.getHeight() * hRatio); //change from 0.33 to 0.25 because I needed peak hz text to not overlap the slider thumb
 
@@ -740,9 +747,9 @@ void YetAnotherAutoWahAudioProcessorEditor::resized()
     peakQualitySlider.setBounds(peakArea.removeFromLeft(widthPeak * 0.25));
     mixSlider.setBounds(peakArea.removeFromLeft(widthPeak * 0.25));
     auto peakAreaButton = peakArea.removeFromTop(heightPeak * 0.70);
-    auto peakAreaButton2 = peakAreaButton.removeFromBottom(heightPeak * 0.45);
-    auto peakAreaButton3 = peakAreaButton2.removeFromLeft(widthPeak * 0.40);
-    auto peakAreaButton4 = peakAreaButton3.removeFromRight(widthPeak * 0.40);
+    auto peakAreaButton2 = peakAreaButton.removeFromBottom(heightPeak * 0.35);
+    auto peakAreaButton3 = peakAreaButton2.removeFromLeft(widthPeak * 0.30);
+    auto peakAreaButton4 = peakAreaButton3.removeFromRight(widthPeak * 0.30);
     analyzerEnabledButton.setBounds(peakAreaButton4);
 
     comboBox.addItemList(audioProcessor.apvts.getParameter("Sweep Type")->getAllValueStrings(), 1);
