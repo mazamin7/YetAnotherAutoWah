@@ -9,7 +9,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/polimi-cmls-22/group7-HW-Juce-Radical_Geeks">
+  <a href="https://github.com/mazamin7/FM-synth">
     <img src="logo.png" alt="Logo" width="640" height="120">
   </a>
 
@@ -18,7 +18,7 @@
   <p align="center">
    AutoWahWah plugin
     <br />
-    <a href="https://github.com/polimi-cmls-22/group7-HW-Juce-Radical_Geeks"><strong>Explore the docs»</strong></a>
+    <a href="https://github.com/mazamin7/FM-synth"><strong>Explore the docs»</strong></a>
     <br />
     <br />
  
@@ -124,15 +124,15 @@ Alberto Bollino - (alberto.bollino@mail.polimi.it) </p>
 Umberto Derme - (umberto.derme@mail.polimi.it) </p>
 Giorgio Granello - (giorgio.granello@mail.polimi.it) </p>
 
-Project Link: [https://github.com/polimi-cmls-22/group7-HW-Juce-Radical_Geeks](https://github.com/polimi-cmls-22/group7-HW-Juce-Radical_Geeks)
+Project Link: [https://github.com/mazamin7/FM-synth](https://github.com/mazamin7/FM-synth)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/polimi-cmls-22/group7-hw-Juce-Radical_Geeks.svg?style=for-the-badge
-[contributors-url]: https://github.com/polimi-cmls-22/group7-hw-Juce-Radical_Geeks/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/polimi-cmls-22/group7-hw-Juce-Radical_Geeks.svg?style=for-the-badge
-[forks-url]: https://github.com/polimi-cmls-22/group7-hw-Juce-Radical_Geeks/network/members
-[stars-shield]: https://img.shields.io/github/stars/polimi-cmls-22/group7-hw-Juce-Radical_Geeks.svg?style=for-the-badge
-[stars-url]: https://github.com/polimi-cmls-22/group7-hw-Juce-Radical_Geeks/stargazers
+[contributors-shield]: https://img.shields.io/github/contributors/mazamin7/FM-synth.svg?style=for-the-badge
+[contributors-url]: https://github.com/mazamin7/FM-synth/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/mazamin7/FM-synth.svg?style=for-the-badge
+[forks-url]: https://github.com/mazamin7/FM-synth/network/members
+[stars-shield]: https://img.shields.io/github/stars/mazamin7/FM-synth.svg?style=for-the-badge
+[stars-url]: https://github.com/mazamin7/FM-synth/stargazers
