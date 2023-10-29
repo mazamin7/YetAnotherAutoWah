@@ -53,6 +53,9 @@
 ## About The Project
 The aim of this project is to implement a wah-wah effect plugin. The wah-wah effect consists in a passband filter, whose central frequency varies over time in a prescribed range and according to a modulating function that can be modified by a knob.
 The input of the plugin is a signal (e.g. an instrument, a song, a midi instrument), and the output is the signal modified after applying the wah-wah effect. The user can choose the parameters by interacting with the GUI.
+
+This project is based on https://github.com/matkatmusic/SimpleEQ.
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
