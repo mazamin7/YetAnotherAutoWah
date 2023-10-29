@@ -9,7 +9,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/mazamin7/FM-synth">
+  <a href="https://github.com/mazamin7/Chordophone-Champion">
     <img src="logo.png" alt="Logo" width="640" height="120">
   </a>
 
@@ -18,7 +18,7 @@
   <p align="center">
    AutoWahWah plugin
     <br />
-    <a href="https://github.com/mazamin7/FM-synth"><strong>Explore the docs»</strong></a>
+    <a href="https://github.com/mazamin7/Chordophone-Champion"><strong>Explore the docs»</strong></a>
     <br />
     <br />
  
@@ -124,15 +124,15 @@ Alberto Bollino - (alberto.bollino@mail.polimi.it) </p>
 Umberto Derme - (umberto.derme@mail.polimi.it) </p>
 Giorgio Granello - (giorgio.granello@mail.polimi.it) </p>
 
-Project Link: [https://github.com/mazamin7/FM-synth](https://github.com/mazamin7/FM-synth)
+Project Link: [https://github.com/mazamin7/Chordophone-Champion](https://github.com/mazamin7/Chordophone-Champion)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/mazamin7/FM-synth.svg?style=for-the-badge
-[contributors-url]: https://github.com/mazamin7/FM-synth/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/mazamin7/FM-synth.svg?style=for-the-badge
-[forks-url]: https://github.com/mazamin7/FM-synth/network/members
-[stars-shield]: https://img.shields.io/github/stars/mazamin7/FM-synth.svg?style=for-the-badge
-[stars-url]: https://github.com/mazamin7/FM-synth/stargazers
+[contributors-shield]: https://img.shields.io/github/contributors/mazamin7/Chordophone-Champion.svg?style=for-the-badge
+[contributors-url]: https://github.com/mazamin7/Chordophone-Champion/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/mazamin7/Chordophone-Champion.svg?style=for-the-badge
+[forks-url]: https://github.com/mazamin7/Chordophone-Champion/network/members
+[stars-shield]: https://img.shields.io/github/stars/mazamin7/Chordophone-Champion.svg?style=for-the-badge
+[stars-url]: https://github.com/mazamin7/Chordophone-Champion/stargazers
